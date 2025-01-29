@@ -1,0 +1,15 @@
+{
+    "kind": "blue-green",
+    "servers": [
+        { 
+            "name": "blue",
+            "uri": "example.com",
+            "default": true  
+        },
+        {
+            "name": "green",
+            "uri": "example.com.mx",
+            "default": false
+        }
+    ]
+}
